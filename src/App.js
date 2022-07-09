@@ -6,6 +6,11 @@ import Header from "./components/Header";
 import Mid from "./components/Mid";
 import Footer from "./components/Footer";
 
+import { ghostCursor } from 'cursor-effects';
+
+new ghostCursor();
+
+
 export default class App extends React.Component{
 
   render(){

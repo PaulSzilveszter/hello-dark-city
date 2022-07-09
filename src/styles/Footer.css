@@ -18,6 +18,19 @@ footer{
     /* background-color: black;
     border-color: white; */
 }
+span{
+    height: 0;
+    width: 0;
+    
+}
+span{
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50%{
+        opacity: 0%;
+    }
+}
 
 @media (max-width:1000px) {
     #ianua-message {
@@ -27,6 +40,7 @@ footer{
         transform: translate(-50%, -50%);
     }
 }
+
 
 @media (max-width:750px) {
     
