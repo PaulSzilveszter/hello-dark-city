@@ -1,0 +1,36 @@
+footer{
+    grid-row: 16/20;
+    /* background-color: black; */
+}
+#ianua-message{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    
+    /* border-style: solid;
+    border-width: 0.2rem;
+    border-radius: 0.1rem; */
+
+    height: 5rem;
+    width: 14.5rem;
+
+    /* background-color: black;
+    border-color: white; */
+}
+
+@media (max-width:1000px) {
+    #ianua-message {
+        text-align: center;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width:750px) {
+    
+}
+@media (max-height:600px) {
+    
+}
