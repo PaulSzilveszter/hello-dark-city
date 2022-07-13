@@ -10,7 +10,7 @@ Start the website by running `$ npm start`
 
 ## Packages used for building this project
 
-[React](reactjs.org) - for reusability
+[React](reactjs.org) - for reusability \
 [React Router](https://reactrouter.com/) - for managing the URL
 
 
