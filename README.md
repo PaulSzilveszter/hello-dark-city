@@ -1,10 +1,12 @@
 # Hello Dark City Website
 ## How to start the website
 
- Change your current directory to the project directory. 
+NOTE: Make sure to have npm installed and updated on your computer
+
+Change your current directory to the project directory. 
 (You can use the command:  `$ cd hello-dark-city`)
 
-Install the dependencies by running `$ npm install` (make sure to have npm installed and updated on your computer)
+Install the dependencies by running `$ npm install` 
 
 Start the website by running `$ npm start`
 
