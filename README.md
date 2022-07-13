@@ -20,7 +20,7 @@ NOTE: The version of the packages can be seen in the "package.json" file
 
 ## Hierarchy of the the project explained
 
-NOTE: "~" represents the "hello-dark-city" directory 
+NOTE: "~" represents the "hello-dark-city" directory and I tried to make the file functionality to be pretty self explanatory from the file name 
 
 All the assets(images, audios, videos, etc.) needed for this project will be placed in the "~/src/assets"
 
