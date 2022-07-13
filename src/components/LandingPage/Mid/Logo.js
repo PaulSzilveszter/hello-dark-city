@@ -1,6 +1,6 @@
 
 
-import LogoImg from "../../assets/DARK CITY Logo white.png"
+import LogoImg from "../../../assets/DARK CITY Logo white.png"
 
 export default function Logo(){
 

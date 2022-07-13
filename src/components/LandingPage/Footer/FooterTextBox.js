@@ -1,5 +1,5 @@
 
-import TypewriterEffect from "../effects/TypewriterEffect";
+import TypewriterEffect from "../../reusables/TypewriterEffect";
 
 
 

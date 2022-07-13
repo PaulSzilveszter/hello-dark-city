@@ -1,6 +1,6 @@
 
 
-import "../styles/Mid.css"
+import "./Mid.css"
 
 import Logo from "./Mid/Logo.js";
 
