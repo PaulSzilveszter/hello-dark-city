@@ -9,7 +9,7 @@ export default function Background() {
         <div id="bg">
             <img src={Gif} id="gif" />
             <img src={Layer} />
-            <audio autoplay loop >
+            <audio autoPlay loop >
                 <source src={Audio} type="audio/wav"/>
             </audio>
             

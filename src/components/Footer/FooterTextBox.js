@@ -1,39 +1,16 @@
-import React from "react";
 
-let textPozition = 0;
-let speed = 100;
+import TypewriterEffect from "../effects/TypewriterEffect";
 
 
-export default class FooterTextBox extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            message: ""
-        }
-
-        this.typewriter = this.typewriter.bind(this);
-    }
-
-    typewriter() {
-        this.setState({ message: this.props.message.substring(0, textPozition) });
-        if (textPozition++ != this.props.message.length) {
-            setTimeout(this.typewriter, speed);
-        }
-    }
-
-    componentDidMount() {
-        this.typewriter();
-    }
 
 
-    render() {
+
+export default function FooterTextBox(props) {
+  
         return (
-            <div id={this.props.id}>
-                {this.state.message}
-                <span>{'\u25ae'}</span>
+            <div id={props.id}>
+                <TypewriterEffect message={"IANUA SAYS: HELLO OLD FRIEND, HOW WAS YOUR LIFE? WELCOME TO THE DARK CITY"} speed={100}/>
             </div>
         )
-    }
 
 }
