@@ -23,7 +23,7 @@ NOTE: "~" represents the "hello-dark-city" directory
 
 All the assets(images, audios, videos, etc.) needed for this project will be placed in the "~/src/assets"
 
-The "index.js" file represents the file that renders the whole page to the html file located in "~/public/index.html"
+The "index.js" file represents the file that renders the whole page to the html file located in "~/public/index.html" and manages routing
 
 The Components needed for the project will stay into the "~/src/components" directory, following the next rules:
 -   The component file and the component stylesheet will sit in the same directory, having the same name, with the exception of the extension(ex: | Component.js -> component file | Component.css -> component stylesheet |)
