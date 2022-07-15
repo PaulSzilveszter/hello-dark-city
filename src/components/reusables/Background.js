@@ -6,7 +6,7 @@ import Audio from "../../assets/BackgroundAudio.wav";
 
 export default function Background() {
     return (
-        <div id="bg">
+        <div id="background">
             <img src={Gif} id="gif" />
             <img src={Layer} />
             <audio autoPlay loop >

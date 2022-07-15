@@ -1,0 +1,18 @@
+.homepage-menu-button{
+    position: relative;
+    height: 7%;
+    width: 80%;
+
+    border: 0.1rem solid white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-menu-button:hover{
+    border-color: lime;
+}

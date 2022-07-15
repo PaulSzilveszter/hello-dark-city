@@ -1,9 +1,9 @@
-#bg{
+#background{
     background-color: black;
 }
 #gif{
     background: url("../../assets/Black Overlay.png");
     /* background: url("../assets/IANUA\ Background.gif");
     background-repeat: no-repeat; */
-    object-fit: contain;
+    object-fit: cover;
 }

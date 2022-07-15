@@ -1,0 +1,40 @@
+#connect-wallet-form{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+    border-style: solid;
+   
+    border-width: 0.2rem;
+  
+    border-color: white;
+
+    height: 2rem;
+    width: 12rem;
+    background:none;
+}
+#connect-wallet-button {
+
+    background-color: black;
+}
+#connect-wallet-button:hover {
+    background-color: lime;
+
+
+}
+
+@media (max-width:1000px) {
+    #connect-wallet-form {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media (max-width:750px) {
+    
+}
+
+
+@media (max-height:600px) {
+    
+}

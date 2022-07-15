@@ -1,6 +1,7 @@
 
 import TypewriterEffect from "../../reusables/TypewriterEffect";
 
+import "./FooterTextBox.css";
 
 
 

@@ -1,0 +1,17 @@
+@media (max-width:1000px) {
+    #home-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+}
+@media (max-width:750px) {
+    
+}
+
+
+@media (max-height:600px) {
+    
+}

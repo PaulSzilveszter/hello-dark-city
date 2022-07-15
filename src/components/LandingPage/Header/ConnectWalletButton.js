@@ -1,11 +1,10 @@
-
-
+import "./ConnectWalletButton.css"
 
 export default function ConnectWalletButton (){
 
   
     return(
-    <button id="connect-wallet-button">CONNECT WALLET</button>
+    <form id="connect-wallet-form" action="./home"><button type = "submit" id="connect-wallet-button">CONNECT WALLET</button></form>
     )
   
 

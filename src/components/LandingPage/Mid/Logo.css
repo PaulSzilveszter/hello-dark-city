@@ -1,0 +1,32 @@
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 18rem;
+    width: 18rem;
+
+    opacity: 50%;
+}
+@media (max-width:1000px) {
+    #logo{
+        height: 15rem;
+        width: 15rem;
+    }
+
+}
+
+@media (max-width:750px) {
+    #logo{
+        height: 13rem;
+        width: 13rem;
+    }
+}
+@media (max-height:600px) {
+    
+    #logo{
+        height: 13rem;
+        width: 13rem;
+    }
+}

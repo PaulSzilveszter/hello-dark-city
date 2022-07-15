@@ -6,16 +6,13 @@ import Header from "./LandingPage/Header";
 import Mid from "./LandingPage/Mid";
 import Footer from "./LandingPage/Footer";
 
-import { ghostCursor } from 'cursor-effects';
 
-new ghostCursor();
 
 
 export default function LandingPage(){
   
     return(
-    <div id="LandingPage">
-
+    <div id="landing-page">
       <Background/>
       <Header/>
       <Mid/>
