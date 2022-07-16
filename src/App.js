@@ -1,3 +1,6 @@
+/*
+    Functionality: Builds the whole app, manages routing and the whole app state 
+*/
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 

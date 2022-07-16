@@ -1,18 +1,26 @@
 import "./Background.css"
 
-import Gif from "../../assets/IANUA Background.gif";
-import Layer from "../../assets/Black Overlay.png";
+import "./Background/Menu.js"
+
+
 import Audio from "../../assets/BackgroundAudio.wav";
 
-export default function Background() {
+import Menu from "./Background/Menu.js";
+
+export default function Background(props) {
+    const gif = <img src={props.Gif} id="background-gif" />
+    const image = <img src={props.Image} />
+
     return (
-        <div id="background">
-            <img src={Gif} id="gif" />
-            <img src={Layer} />
-            <audio autoPlay loop >
-                <source src={Audio} type="audio/wav"/>
-            </audio>
-            
-        </div>
-    );
+        <>
+            {props.isMenu && <Menu />}
+            <div id="background">
+                {props.isGif && gif}
+                {props.isImage && image}
+                {props.isAudio && <audio autoPlay loop >
+                    <source src={Audio} type="audio/wav" />
+                </audio> && props.isAudio}
+            </div>
+
+        </>);
 }
