@@ -17,13 +17,13 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <HashRouter>
-                <Routes>
+            <BrowserRouter>
+                <Routes basename={process.env.PUBLIC_URL}>
                     <Route path="/" exact element={<LandingPage />} />
                     <Route path="/home" exact element={<HomePage />} />
                     <Route path="/areyoulost" exact element={<LinkPage />} />
                 </Routes>
-            </HashRouter>
+            </BrowserRouter>
         )
     }
 
