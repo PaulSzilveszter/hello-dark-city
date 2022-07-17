@@ -5,7 +5,7 @@ import MenuButton from "./Menu/MenuButton.js";
 import "./Menu.css"
 
 import MenuButtonImg from "../../../assets/MenuButton.png"
-import Logo from "../../../assets/DARK CITY Logo white.png"
+import Logo from "../../../assets/logo_white.png"
 
 export default function Menu() {
 

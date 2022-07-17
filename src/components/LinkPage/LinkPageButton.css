@@ -1,10 +1,8 @@
 .link-page-button{
     position: relative;
-    height: 7%;
-    width: 80%;
+    height: 3.2rem;
+    width: 10rem;
 
-    border: 0.1rem solid white;
-    background-color: black;
     text-align: center;
     text-decoration: none;
 
@@ -13,6 +11,39 @@
     justify-content: center;
     align-items: center;
 }
+.link-page-button-text{
+    opacity:80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .link-page-button:hover{
     border-color: lime;
+}
+.link-page-button-text:hover{
+    opacity:100%;
+   
+    
+}
+.left:hover{
+    animation: left 0.2s forwards;
+
+}
+@keyframes left {
+    100%{
+        transform: translate(-20px);
+    }
+}
+.right:hover{
+    animation: right 0.2s forwards;
+
+}
+@keyframes right {
+    100%{
+        transform: translate(20px);
+    }
 }

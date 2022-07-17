@@ -1,9 +1,13 @@
 import "./LinkPageButton.css"
 
 export default function LinkPageButton(props){
+    
+    
+    
     return (
-        <a class = "link-page-button" href={props.link}>
-            {props.text}
+        <a className = {"link-page-button "+props.transition} href={props.link}>
+            <img  src={props.Image}></img>
+            <div className="link-page-button-text">{props.text}</div>
         </a>
     )
 }
