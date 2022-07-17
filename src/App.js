@@ -17,11 +17,11 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <BrowserRouter>
-                <Routes basename={process.env.PUBLIC_URL}>
-                    <Route path="/hello-dark-city" exact element={<LandingPage />} />
-                    <Route path="/hello-dark-city/home" exact element={<HomePage />} />
-                    <Route path="/hello-dark-city/areyoulost" exact element={<LinkPage />} />
+            <BrowserRouter  basename={process.env.PUBLIC_URL}>
+                <Routes>
+                    <Route path="/" exact element={<LandingPage />} />
+                    <Route path="/home" exact element={<HomePage />} />
+                    <Route path="/areyoulost" exact element={<LinkPage />} />
                 </Routes>
             </BrowserRouter>
         )
