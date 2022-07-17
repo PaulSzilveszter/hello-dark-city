@@ -2,7 +2,7 @@
     Functionality: Builds the whole app, manages routing and the whole app state 
 */
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import HomePage from "./components/HomePage.js";
@@ -17,13 +17,13 @@ export default class App extends React.Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Routes>
-                    <Route path="/hello-dark-city" exact element={<LandingPage />} />
-                    <Route path="/hello-dark-city/home" exact element={<HomePage />} />
-                    <Route path="/hello-dark-city/areyoulost" exact element={<LinkPage />} />
+                    <Route path="/" exact element={<LandingPage />} />
+                    <Route path="/home" exact element={<HomePage />} />
+                    <Route path="/areyoulost" exact element={<LinkPage />} />
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 
