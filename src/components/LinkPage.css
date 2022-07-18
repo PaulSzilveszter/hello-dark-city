@@ -5,11 +5,19 @@
     align-items: center;
     /* justify-content: space-around; */
 }
+#link-page-message{
+    bottom:3%;
+    left:1%;
 
+    height: 10px;
+    width: 9cm;
+    
+}
 @media (max-width:1000px) {
-    *{
-        
-    }
+        #link-page-message{
+            display:none;
+        }
+
 }
 @media (max-width:750px) {
     *{

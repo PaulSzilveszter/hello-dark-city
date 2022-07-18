@@ -1,4 +1,6 @@
 #menu-closed{
+    margin-left: 20px;
+    margin-top:20px;
     top: 0%;
     left: 0%;
     position:fixed; z-index:100;
@@ -82,5 +84,8 @@
 
 
 @media (max-height:600px) {
-    
+    #menu-closed{
+        margin-top:5px;
+        margin-left:10px;
+    }
 }

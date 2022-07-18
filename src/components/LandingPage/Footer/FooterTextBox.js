@@ -10,7 +10,7 @@ export default function FooterTextBox(props) {
   
         return (
             <div id={props.id}>
-                <TypewriterEffect message={"IANUA SAYS: HELLO OLD FRIEND, HOW WAS YOUR LIFE? WELCOME TO THE DARK CITY"} speed={100}/>
+                <TypewriterEffect message={"IANUA SAYS: HELLO OLD FRIEND,\nHOW WAS YOUR LIFE?\nWELCOME TO THE DARK CITY"} speed={100}/>
             </div>
         )
 

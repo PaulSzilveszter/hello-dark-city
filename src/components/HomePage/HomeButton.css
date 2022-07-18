@@ -48,7 +48,9 @@
     
 }
 @media (max-width:750px) {
-    
+    .homepage-button{
+        width:50%;
+    }
 }
 
 

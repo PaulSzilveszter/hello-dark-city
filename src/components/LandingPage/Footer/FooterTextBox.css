@@ -11,6 +11,7 @@
     height: 5rem;
     width: 14.5rem;
 
+    white-space: pre-line;
     /* background-color: black;
     border-color: white; */
 }

@@ -19,7 +19,7 @@ export default function Background(props) {
                 {props.isImage && image}
                 {props.isAudio && <audio autoPlay loop >
                     <source src={Audio} type="audio/wav" />
-                </audio> && props.isAudio}
+                </audio> }
             </div>
 
         </>);

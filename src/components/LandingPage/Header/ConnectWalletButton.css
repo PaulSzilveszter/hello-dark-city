@@ -2,19 +2,19 @@
     position: absolute;
     top: 50%;
     right: 10%;
-    transform: translate(0, -50%);
-    border-style: solid;
+    /* transform: translate(-50%, -50%); */
+    margin-top:20px;
    
-    border-width: 0.2rem;
-  
-    border-color: white;
+   
 
     height: 2rem;
     width: 12rem;
     background:none;
 }
 #connect-wallet-button {
-
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: white;
     background-color: black;
 }
 #connect-wallet-button:hover {
@@ -36,5 +36,7 @@
 
 
 @media (max-height:600px) {
-    
+    #connect-wallet-form{
+            margin-top:35px;
+    }
 }
