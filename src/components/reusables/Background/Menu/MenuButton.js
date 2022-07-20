@@ -1,8 +1,9 @@
 import "./MenuButton.css"
 
 export default function MenuButton(props){
+   
     return (
-        <a class = "menu-button" href={props.link}>
+        <a  className = {"menu-button "+ "menu-button-"+props.side} href={props.link}>
             {props.text}
         </a>
     )

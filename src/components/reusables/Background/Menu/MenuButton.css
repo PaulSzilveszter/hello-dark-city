@@ -1,10 +1,15 @@
-.menu-button{
+.menu-button {
     position: relative;
     height: 7%;
     width: 80%;
 
-    border: 0.1rem solid white;
-    background-color: black;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    
+
     text-align: center;
     text-decoration: none;
 
@@ -13,6 +18,16 @@
     justify-content: center;
     align-items: center;
 }
-.menu-button:hover{
-    border-color: lime;
+.menu-button-left{
+    
+    background-image: url("../../../../assets/menu_sign_left_normal.png");
+}
+.menu-button-left:hover{
+    background-image: url("../../../../assets/menu_sign_left_hover.png");
+}
+.menu-button-right{
+    background-image: url("../../../../assets/menu_sign_right_normal.png");
+}
+.menu-button-right:hover{
+    background-image: url("../../../../assets/menu_sign_right_hover.png");
 }

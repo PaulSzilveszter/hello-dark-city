@@ -7,6 +7,9 @@ import "./Menu.css"
 import MenuButtonImg from "../../../assets/MenuButton.png"
 import Logo from "../../../assets/logo_white.png"
 
+import URL from "../scripts/URL.js";
+const mainURL=URL.getMainURL();
+
 export default function Menu() {
 
     const [isOpen, toggleMenu] = useState(false);
@@ -19,9 +22,12 @@ export default function Menu() {
         </button>
     )
 
-    const closeButton = (
+        const logo =(<img src={Logo} style={{opacity:"50%"}}/>);
+
+    const menuUpper = (
         <div id="menu-upper">
-            <img src={Logo} style={{opacity:"50%"}}/>
+            <div id="menu-upper-company-name">DARK CITY</div>
+            <div id = "menu-user-greeting">Hello, User!</div>
             <button id="menu-close-button" onClick={() => {
                 toggleMenu(!isOpen);
             }}>
@@ -30,18 +36,35 @@ export default function Menu() {
         </div>
     )
 
+    const horizontalLine=(<div className="menu-horizontal-line"></div>)
+     
+    function category(categoryName){
+         return <div className="menu-category">{categoryName}</div>
+    }
+
     const menuOpened = (<div id="menu-opened">
-        {closeButton}
-        <MenuButton text="MAIN SITE" link="" />
-        <MenuButton text="TWITTER" link="" />
-        <MenuButton text="DISCORD" link="" />
-        <MenuButton text="AI CHAT BOT" link="" />
-        <MenuButton text="WHITEPAPER" link="" />
-        <MenuButton text="TIK TOK" link="" />
+        {menuUpper}
+
+            {horizontalLine}
+            {category("SOCIAL MEDIA")}
+        
+        <MenuButton side = {"left"} text="DISCORD" link="https://discord.gg/ABAvjWVkR5" />
+        <MenuButton side ={"right"} text="TWITTER" link="https://twitter.com/helloDARKCITY" />
+        <MenuButton side = {"left"} text="TIKTOK" link="" />
+        <MenuButton side ={"right"} text="MARKET" link="" />
+
+        {horizontalLine}
+        {category("ARE YOU LOST?")}
+
+        <MenuButton side = {"left"} text="LANDING PAGE" link={mainURL} />
+        <MenuButton side ={"right"} text="HOME" link={mainURL+"/home"} />
+        <MenuButton side = {"left"} text="ABOUT" link="" />
+        <MenuButton side ={"right"} text="WHITEPAPER" link="https://factoryofthesol.com/whitepaper" />
+        
 
     </div>)
-
-    return (
+    console.log(URL.getMainURL());
+        return (
         
             isOpen ? menuOpened : menuClosed
         

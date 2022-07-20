@@ -16,7 +16,7 @@
 
 }
 .homepage-button:hover{
-    border-color: lime;
+    border-color: var(--dark-city-green);
 } 
 
 
@@ -24,21 +24,21 @@
     .homepage-button{
         position: absolute;
     }
-    a#ai-chat-bot{
+    #ai-chat-bot{
         top: 50%;
         left: 50%;
         transform: translate(-110%, -150%);
-    } a#about{
+    } #about{
         top: 50%;
         left: 50%;
         transform: translate(10%, -150%);
     }
-    a#path-of-sol{
+    #path-of-sol{
         top: 50%;
         left: 50%;
         transform: translate(10%, 50%);
     }
-    a#market{
+    #market{
         top: 50%;
         left: 50%;
         transform: translate(-110%, 50%);
