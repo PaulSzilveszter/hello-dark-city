@@ -1,3 +1,6 @@
+/*
+    Represents the logo from the landing page that acts as a link
+*/
 import "./Logo.css";
 
 import LogoImg from "../../../assets/logo_white.png"

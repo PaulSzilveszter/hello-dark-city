@@ -19,6 +19,7 @@
 }
 #connect-wallet-button:hover {
     background-color: var(--dark-city-green);
+    color: black;
 
 
 }

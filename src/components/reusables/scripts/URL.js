@@ -1,3 +1,7 @@
+/* 
+This script is used to get some parts of the URL for better routing
+*/
+
 export default class URL{
     static getFullURL(){
         const fullURL = window.location.href;

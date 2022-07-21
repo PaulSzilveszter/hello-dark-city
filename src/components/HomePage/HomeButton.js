@@ -1,5 +1,5 @@
 /*
-  Functionality: Represents any of those 4 main buttons of the home page
+  Represents any of those 4 main buttons of the home page
 
 */
 

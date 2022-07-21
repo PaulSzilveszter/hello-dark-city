@@ -1,0 +1,30 @@
+.menu-sign-out-button{
+    position: relative;
+    left:33%;
+    margin-bottom: 5px;
+    margin-right: 20px;
+
+    height: 5%;
+    width: 20%;
+    min-width: 3cm;
+    max-width: 4cm;
+
+    border-style: solid;
+    border-color: grey;
+    border-radius: 0.1rem;
+    border-radius: 2px;
+
+
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.menu-sign-out-button:hover{
+    background-color: var(--dark-city-green);
+    color: black;
+    
+}

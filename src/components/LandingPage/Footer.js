@@ -1,3 +1,6 @@
+/*
+    Builds the lower part(footer) of the landing page
+*/
 import "./Footer.css";
 
 import FooterTextBox from "./Footer/FooterTextBox";

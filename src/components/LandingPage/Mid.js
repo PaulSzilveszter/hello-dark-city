@@ -1,5 +1,8 @@
+/*
 
+Builds the middle part of the landing page
 
+*/
 import "./Mid.css"
 
 import Logo from "./Mid/Logo.js";

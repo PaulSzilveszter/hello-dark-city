@@ -1,3 +1,6 @@
+/*
+    Typewriter effect animation
+*/
 import React from "react";
 
 import "./TypewriterEffect.css"
@@ -16,6 +19,8 @@ export default class TypewriterEffect extends React.Component {
         this.typewriter = this.typewriter.bind(this);
     }
 
+    //The function:
+
     typewriter() {
         this.setState
             (
@@ -28,10 +33,13 @@ export default class TypewriterEffect extends React.Component {
         }
     }
 
+    //Initializes when created:
+
     componentDidMount() {
         this.typewriter();
     }
 
+    //Renders:
 
     render() {
         return (

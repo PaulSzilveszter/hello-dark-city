@@ -1,4 +1,6 @@
-
+/*
+    Represents the typewriter message from the landing page
+*/
 import TypewriterEffect from "../../reusables/TypewriterEffect";
 
 import "./FooterTextBox.css";

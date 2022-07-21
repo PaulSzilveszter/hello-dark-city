@@ -30,6 +30,7 @@ The "App.js" file puts the components together and manages routing
 
 The Components needed for the project will stay into the "~/src/components" directory(with the exception of "App.js"), following the next rules:
 -   The component file and the component stylesheet will sit in the same directory, having the same name, with the exception of the extension(ex: | Component.js -> component file | Component.css -> component stylesheet |)
+-   The ids and classed that are used in the stylesheets will follow the kebab-case rule and will have very specific names that will not repeat, only if you want those classes or ids to be overwritten(because the stylesheets are rendered for the whole page, not just the component that uses it). NOTE: Please avoid using tags' names, beacuse they are overwritten the easiest!!!  
 -   Reusable components that do not follow a specific hierarchy in the project and can be used in different parts of code will be placed in " ~/src/components/reusables" directory. The rest will be placed in " ~/src/components" 
 -   The components that have subcomponents(that are not reusables) in their code will have a dedicated directory for those subcomponents(conatining them) named like the parent component
 
