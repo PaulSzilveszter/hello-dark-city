@@ -2,6 +2,7 @@
   Functionality: Represents the home page. Navigate to it by adding to the Url: /home
 
 */
+import { Helmet } from "react-helmet";
 
 import "./HomePage.css"
 
@@ -16,6 +17,9 @@ export default function HomePage() {
 
    return (
       <>
+         <Helmet>
+            <title>Hello Dark City Home Page</title>
+         </Helmet>
          <div id="home-page">
             <Background isMenu={true} Gif = {Gif} Image ={Image} isImage={true} isGif={true} isAudio={true}/>
             <HomeButton id="ai-chat-bot"/>

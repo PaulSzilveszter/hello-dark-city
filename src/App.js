@@ -21,7 +21,7 @@ export default class App extends React.Component {
                 <Routes>
                     <Route path="/" exact element={<LandingPage />} />
                     <Route path="/home" exact element={<HomePage />} />
-                    <Route path="/areyoulost" exact element={<LinkPage />} />
+                    <Route path="/are-you-lost" exact element={<LinkPage />} />
                 </Routes>
             </BrowserRouter>
         )
