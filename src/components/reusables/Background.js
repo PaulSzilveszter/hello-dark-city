@@ -10,8 +10,8 @@ import Menu from "./Background/Menu.js";
 
 export default function Background(props) {
 
-    const gif = <img src={props.Gif} id="background-gif" />
-    const image = <img src={props.Image} />
+    const gif = <img src={props.Gif} id="background-gif" alt="Background gif"/>
+    const image = <img src={props.Image}  alt="Background"/>
 
     return (
         <>

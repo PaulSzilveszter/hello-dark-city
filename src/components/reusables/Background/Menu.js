@@ -9,8 +9,8 @@ import URL from "../scripts/URL.js";
 
 import "./Menu.css"
 
-import MenuButtonImg from "../../../assets/MenuButton.png"
-import Logo from "../../../assets/logo_white.png"
+import MenuButtonImg from "../../../assets/menu-button.png"
+import Logo from "../../../assets/logo-white.png"
 
 
 //Gets the main page url:
@@ -28,11 +28,11 @@ export default function Menu() {
         <button id="menu-closed" onClick={() => {
             toggleMenu(!isOpen);
         }}>
-            <img src={MenuButtonImg} />
+            <img src={MenuButtonImg} alt="Menu button"/>
         </button>
     )
 
-    const logo = (<img src={Logo} style={{ opacity: "50%" }} />);
+    const logo = (<img src={Logo} style={{ opacity: "50%" }} alt="Dark city logo"/>);
 
     //Menu Opened Parts:
 

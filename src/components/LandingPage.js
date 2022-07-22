@@ -11,8 +11,8 @@ import Header from "./LandingPage/Header";
 import Mid from "./LandingPage/Mid";
 import Footer from "./LandingPage/Footer";
 
-import Gif from "../assets/IANUA Background.gif";
-import Image from "../assets/Black Overlay.png";
+import Gif from "../assets/ianua-background.gif";
+import Image from "../assets/background-black-overlay.png";
 
 
 export default function LandingPage(){

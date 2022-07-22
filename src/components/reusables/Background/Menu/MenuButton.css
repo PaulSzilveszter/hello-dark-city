@@ -21,14 +21,14 @@
 }
 .menu-button-left{
     
-    background-image: url("../../../../assets/menu_sign_left_normal.png");
+    background-image: url("../../../../assets/menu-sign-left-normal.png");
 }
 .menu-button-left:hover{
-    background-image: url("../../../../assets/menu_sign_left_hover.png");
+    background-image: url("../../../../assets/menu-sign-left-hover.png");
 }
 .menu-button-right{
-    background-image: url("../../../../assets/menu_sign_right_normal.png");
+    background-image: url("../../../../assets/menu-sign-right-normal.png");
 }
 .menu-button-right:hover{
-    background-image: url("../../../../assets/menu_sign_right_hover.png");
+    background-image: url("../../../../assets/menu-sign-right-hover.png");
 }

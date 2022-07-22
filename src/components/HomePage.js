@@ -3,15 +3,13 @@
 
 */
 
-import { Link } from "react-router-dom";
-
 import "./HomePage.css"
 
 import Background from "./reusables/Background";
 import HomeButton from "./HomePage/HomeButton";
 
-import Gif from "../assets/IANUA Background.gif";
-import Image from "../assets/Black Overlay.png";
+import Gif from "../assets/ianua-background.gif";
+import Image from "../assets/background-black-overlay.png";
 
 export default function HomePage() {
 

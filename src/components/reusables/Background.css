@@ -2,7 +2,7 @@
     background-color: black;
 }
 #background-gif{
-    background: url("../../assets/Black Overlay.png");
+    background: url("../../assets/background-black-overlay.png");
     /* background: url("../assets/IANUA\ Background.gif");
     background-repeat: no-repeat; */
     object-fit: cover;

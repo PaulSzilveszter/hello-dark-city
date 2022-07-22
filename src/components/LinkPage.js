@@ -9,10 +9,10 @@ import Background from "./reusables/Background.js";
 import LinkPageButton from "./LinkPage/LinkPageButton";
 import TypewritterEffect from "./reusables/TypewriterEffect.js";
 
-import Gif from "../assets/LinkPageBackground.gif"
-import SignButton1 from "../assets/sign_post_1.png"
-import SignButton2 from "../assets/sign_post_2.png"
-import Logo from "../assets/logo_white.png"
+import Gif from "../assets/link-page-background.gif"
+import SignButton1 from "../assets/sign-post-1.png"
+import SignButton2 from "../assets/sign-post-2.png"
+import Logo from "../assets/logo-white.png"
 
 export default function LinkPage (){
 
@@ -27,7 +27,7 @@ export default function LinkPage (){
       style={{position:"relative", height:"40%"}}>
         
         <img id="link-page-logo" src={Logo} 
-        style={{height:"10rem", width:"10rem", opacity:"70%", top:"50%", left:"50%", transform:"translate(-50%, -50%)", position:"relative"}} alt="Logo"/>
+        style={{height:"10rem", width:"10rem", opacity:"70%", top:"50%", left:"50%", transform:"translate(-50%, -50%)", position:"relative"}} alt="Dark city logo"/>
 
 
       </div>
