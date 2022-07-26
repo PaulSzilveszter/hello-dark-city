@@ -14,8 +14,8 @@ Start the website by running `$ npm start`
 
 [React](reactjs.org) - for reusability \
 [React Router](https://reactrouter.com/) - for managing the URL \
-[cursor-effects](https://github.com/tholman/cursor-effects) - for cursor effects
-[React Helmet](https://www.npmjs.com/package/react-helmet) - for better SEO \
+[cursor-effects](https://github.com/tholman/cursor-effects) - for cursor effects \
+[React Helmet](https://www.npmjs.com/package/react-helmet) - for better SEO 
 
 
 NOTE: The version of the packages can be seen in the "package.json" file

@@ -40,8 +40,10 @@ export default function LinkPage() {
 
   return (<>
     <Helmet>
+    <meta name="description" content="Dark City's link page"/>
       <title>Hello Dark City Link Page</title>
-      <meta name="description" content="Dark City's link page"></meta>
+      
+     
     </Helmet>
 
     <div id="link-page">

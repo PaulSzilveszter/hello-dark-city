@@ -67,10 +67,10 @@ export default function Menu() {
         {horizontalLine}
         {category("SOCIAL MEDIA")}
 
-        <MenuButton side={"left"} text="DISCORD" link="https://discord.gg/ABAvjWVkR5" />
-        <MenuButton side={"right"} text="TWITTER" link="https://twitter.com/helloDARKCITY" />
-        <MenuButton side={"left"} text="TIKTOK" link="" />
-        <MenuButton side={"right"} text="MARKET" link="" />
+        <MenuButton side={"left"} text="DISCORD" link="https://discord.gg/ABAvjWVkR5" target={"_blank"}/>
+        <MenuButton side={"right"} text="TWITTER" link="https://twitter.com/helloDARKCITY" target={"_blank"}/>
+        <MenuButton side={"left"} text="TIKTOK" link="" target={"_blank"}/>
+        <MenuButton side={"right"} text="MARKET" link="" target={"_blank"}/>
 
         {horizontalLine}
         {category("ARE YOU LOST?")}
