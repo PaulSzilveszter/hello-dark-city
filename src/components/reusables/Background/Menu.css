@@ -4,11 +4,31 @@
     top: 0%;
     left: 0%;
     position:fixed; z-index:100;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
+    
     background:none;
+
+    border:none;
+    color:white;
+    box-sizing: border-box;
 }
+/* #menu-closed *{
+    position: absolute;
+    padding: 0px;
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: "Helmet";
+    color: white;
+    box-sizing: border-box;
+} */
 #menu-closed img{
+
+height: 3.5rem;
+    width: 3.5rem;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -34,7 +54,26 @@
     animation-duration: 0.75s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+
+   
 }
+#menu-opened *{
+   
+    
+    
+}
+/* #menu-opened *{
+    position: absolute;
+    padding: 0px;
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: "Helmet";
+    color: white;
+    box-sizing: border-box;
+} */
 @keyframes slide-left {
     100%{
         left: 0%;
@@ -67,7 +106,7 @@
     
     height: 2rem;
     width: 2rem;
-
+    border: none;
     background: none;
     font-size: 2rem;
     display: flex;
@@ -90,10 +129,10 @@
 #menu-user-greeting{
     position: relative;
     /* background-color: red; */
-    height: 30%;
-    top:30%;
+    height: 40%;
+    top:20%;
 
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     
     
 }
@@ -108,10 +147,13 @@
     
 }
 .menu-category{
+    
+    width: 100%;
     position: relative;
+    text-align: center;
     /* background-color: red; */
-    height: 2%;
-    left: 10%;
+    height: 4%;
+    
     margin-bottom: 10px;
     font-size: 1.6rem;
     

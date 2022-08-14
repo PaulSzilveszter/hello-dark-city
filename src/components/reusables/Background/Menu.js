@@ -4,7 +4,7 @@ This Components Builds the whole menu
 import { useState } from "react"
 
 import MenuButton from "./Menu/MenuButton.js";
-import SignOutButton from "../SignOutButton.js";
+import SignOutButton from "./Menu/SignOutButton.js";
 import URL from "../scripts/URL.js";
 
 import "./Menu.css"
@@ -14,7 +14,7 @@ import Logo from "../../../assets/logo-white.png"
 
 
 //Gets the main page url:
-const mainURL = URL.getMainURL();
+const mainURL = URL.getDomain();
 
 export default function Menu() {
 
@@ -32,7 +32,7 @@ export default function Menu() {
         </button>
     )
 
-    const logo = (<img src={Logo} style={{ opacity: "50%" }} alt="Dark city logo"/>);
+    
 
     //Menu Opened Parts:
 
@@ -86,7 +86,6 @@ export default function Menu() {
 
     //Rendering:
     return (
-
         isOpen ? menuOpened : menuClosed
 
     )

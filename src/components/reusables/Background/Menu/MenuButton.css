@@ -18,8 +18,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    border-style: solid;
+    border-color: grey;
+    border-radius:5px;
 }
-.menu-button-left{
+.menu-button:hover{
+    background-color: var(--dark-city-green);
+    color: black;
+}
+/* .menu-button-left{
     
     background-image: url("../../../../assets/menu-sign-left-normal.png");
 }
@@ -31,4 +39,4 @@
 }
 .menu-button-right:hover{
     background-image: url("../../../../assets/menu-sign-right-hover.png");
-}
+} */
