@@ -8,6 +8,7 @@ import "./App.css";
 import HomePage from "./components/HomePage.js";
 import LandingPage from "./components/LandingPage.js"
 import LinkPage from "./components/LinkPage";
+import IanuaAIDemo from "./components/IanuaAIDemo";
 
 import { ghostCursor } from 'cursor-effects';
 
@@ -22,6 +23,7 @@ export default class App extends React.Component {
                     <Route path="/" exact element={<LandingPage />} />
                     <Route path="/home" exact element={<HomePage />} />
                     <Route path="/are-you-lost" exact element={<LinkPage />} />
+                    <Route path="/ianua-ai-demo" exact element={<IanuaAIDemo />} />
                 </Routes>
             </BrowserRouter>
         )
