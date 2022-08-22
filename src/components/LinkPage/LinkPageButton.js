@@ -9,7 +9,7 @@ export default function LinkPageButton(props){
     
     
     return (
-        <a className = {"link-page-button link-page-button-"+props.transition} href={props.link} target="_blank" rel="noreferrer">
+        <a className = {"link-page-button link-page-button-"+props.transition} href={props.link} target={props.target} rel="noreferrer">
 
             <img  src={props.Image} alt="Background"/>
             

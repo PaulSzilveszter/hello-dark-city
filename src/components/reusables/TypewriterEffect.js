@@ -28,7 +28,7 @@ export default class TypewriterEffect extends React.Component {
             );
 
 
-        if (currentCharacter++ != this.props.message.length) {
+        if (currentCharacter++ !==this.props.message.length) {
             setTimeout(this.typewriter, this.props.speed);
         }
     }

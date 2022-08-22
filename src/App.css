@@ -2,8 +2,9 @@
     font-family: Helmet;
     src: url("./assets/Helmet-Regular.ttf");
 }
-:root{
-    --dark-city-green:#00ff9d;
+
+:root {
+    --dark-city-green: #00ff9d;
 }
 
 * {
@@ -17,23 +18,13 @@
     font-family: "Helmet";
     color: white;
     box-sizing: border-box;
-    
+
 }
 
 @media (max-width:1000px) {
-    *{
-        
-    }
+    * {}
 }
+
 @media (max-width:750px) {
-    *{
-       
-    }
-}
-
-
-@media (max-height:600px) {
-    *{
-        font-size: 13px;
-    }
+    * {}
 }

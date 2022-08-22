@@ -10,7 +10,7 @@ import URL from "../scripts/URL.js";
 import "./Menu.css"
 
 import MenuButtonImg from "../../../assets/menu-button.png"
-import Logo from "../../../assets/logo-white.png"
+//import Logo from "../../../assets/logo-white.png"
 
 
 //Gets the main page url:

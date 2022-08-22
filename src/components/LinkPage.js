@@ -13,7 +13,7 @@ import TypewritterEffect from "./reusables/TypewriterEffect.js";
 import Gif from "../assets/link-page-background.gif"
 import SignButton1 from "../assets/sign-post-1.png"
 import SignButton2 from "../assets/sign-post-2.png"
-import Logo from "../assets/logo-white.png"
+import Logo from "../assets/new-logo.png"
 
 export default function LinkPage() {
 
@@ -28,7 +28,7 @@ export default function LinkPage() {
       style={{ position: "relative", height: "40%" }}>
 
       <img id="link-page-logo" src={Logo}
-        style={{ height: "10rem", width: "10rem", opacity: "70%", top: "50%", left: "50%", transform: "translate(-50%, -50%)", position: "relative" }} alt="Dark city logo" />
+        style={{ height: "10rem", width: "10rem", opacity: "100%", top: "50%", left: "50%", transform: "translate(-50%, -50%)", position: "relative" }} alt="Dark city logo" />
 
 
     </div>
@@ -52,13 +52,13 @@ export default function LinkPage() {
       {logo}
       {pole}
 
-      <LinkPageButton Image={SignButton2} transition={"right"} text="ENTER SITE" link="https://www.factoryofthesol.com/hellodarkcity" />
-      <LinkPageButton Image={SignButton1} transition={"left"} text="DISCORD" link="https://discord.gg/ABAvjWVkR5" />
-      <LinkPageButton Image={SignButton2} transition={"right"} text="TWITTER" link="https://twitter.com/helloDARKCITY" />
-      <LinkPageButton Image={SignButton1} transition={"left"} text="WHITEPAPER" link="https://www.factoryofthesol.com/whitepaper" />
+      <LinkPageButton Image={SignButton2} transition={"right"} text="ENTER SITE" link="./home" target="_blank"/>
+      <LinkPageButton Image={SignButton1} transition={"left"} text="DISCORD" link="https://discord.gg/ABAvjWVkR5" target="_blank"/>
+      <LinkPageButton Image={SignButton2} transition={"right"} text="TWITTER" link="https://twitter.com/helloDARKCITY" target="_blank"/>
+      <LinkPageButton Image={SignButton1} transition={"left"} text="WHITEPAPER" link="" />
       <LinkPageButton Image={SignButton2} transition={"right"} text="ABOUT" link="" />
       <LinkPageButton Image={SignButton1} transition={"left"} text="WAKE UP" link="" />
-      <LinkPageButton Image={SignButton2} transition={"right"} text="TIK TOK" link="https://www.tiktok.com/@hellodarkcity" />
+      <LinkPageButton Image={SignButton2} transition={"right"} text="TIK TOK" link="" />
 
     </div>
   </>)
